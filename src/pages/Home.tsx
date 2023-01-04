@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 const Home = () => {
     return ( 
-        <div className="w-full max-w-[80%] h-screen flex flex-col justify-between">
+        <div id="home" className="w-full max-w-[80%] h-screen flex flex-col justify-between">
             <Header />
             <div className="flex flex-col justify-center items-center">
                 <p className="text-6xl">日本国</p>

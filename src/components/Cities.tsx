@@ -10,11 +10,11 @@ const Cities = () => {
 	return (
 		<div className='flex justify-center items-center gap-12'>
 			{cities?.map((one) => (
-				<div className='flex gap-3 font-semibold justify-center items-center'>
+				<div className='flex gap-3 font-semibold justify-center items-end'>
 					<img
 						src={one.img}
 						alt='img'
-						className='rounded-full w-20 h-20'
+						className='rounded-full w-16 h-16'
 					/>
 					<div>
 						<p className='text-sm'>{one.p}</p>

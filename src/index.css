@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-    background-image: url('../src/imgs/manuel-cosentino-n--CMLApjfI-unsplash.jpg');
+body {
+    background-image: url('../src/imgs/ismael-abelleira-MZ00oma1sn0-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+    background-attachment: fixed;
+}

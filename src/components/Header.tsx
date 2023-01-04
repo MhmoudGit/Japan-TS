@@ -12,8 +12,8 @@ const Header = () => {
 				{nav?.map((link) => (
                     <li>{link.name}</li>
                 ))}
-                <input type="text" placeholder="SEARCH" 
-                className="rounded-full border py-2 px-4 outline-none"/>
+                <input type="text" placeholder="SEARCH..." 
+                className="rounded-full border py-2 px-4 outline-none text-slate-500"/>
 			</ul>
 			<button className="py-2 px-6 rounded-full text-white bg-red-500">EXPLORE</button>
 		</nav>
