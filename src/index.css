@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-image: url('../src/imgs/flag-japan.jpg');
+/* body {
+    background-image: url('../src/imgs/manuel-cosentino-n--CMLApjfI-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-}
+    background-size: cover;
+} */
