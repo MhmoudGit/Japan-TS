@@ -8,7 +8,7 @@ const Cities = () => {
 		{ img: img1, name: 'Nara', p: 'MAKE FRIENDS WITH NATURE IN', id: 4 },
 	]
 	return (
-		<div className='flex justify-center items-center gap-12'>
+		<div className='flex justify-center items-center gap-10 my-10'>
 			{cities?.map((one) => (
 				<div className='flex gap-3 font-semibold justify-center items-end'>
 					<img
@@ -17,7 +17,7 @@ const Cities = () => {
 						className='rounded-full w-16 h-16'
 					/>
 					<div>
-						<p className='text-sm'>{one.p}</p>
+						<p className='text-xs'>{one.p}</p>
 						<h5 className='text-lg'>{one.name}</h5>
 					</div>
 				</div>

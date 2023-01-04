@@ -15,7 +15,7 @@ const Header = () => {
                 <input type="text" placeholder="SEARCH..." 
                 className="rounded-full border py-2 px-4 outline-none text-slate-500"/>
 			</ul>
-			<button className="py-2 px-6 rounded-full text-white bg-red-500">EXPLORE</button>
+			<button className="py-2 px-10 rounded-full text-white bg-red-600">EXPLORE</button>
 		</nav>
 	)
 }
