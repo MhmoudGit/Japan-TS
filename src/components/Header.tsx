@@ -6,7 +6,7 @@ const Header = () => {
     ]
 
 	return (
-		<nav className='px-16 py-10 flex justify-between font-semibold items-center'>
+		<nav className='py-8 flex justify-between font-semibold items-center'>
 			<ul className='flex items-center gap-10'>
 				<span>Log</span>
 				{nav?.map((link) => (

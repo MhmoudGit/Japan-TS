@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 const Home = () => {
     return ( 
-        <div>
+        <div className="w-full max-w-[80%]">
             <Header />
         </div>
      );
