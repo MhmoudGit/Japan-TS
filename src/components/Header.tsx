@@ -1,17 +1,21 @@
 const Header = () => {
+    const nav: {name: string, id: number, route: string}[] = [
+        {name: 'HOMETALES', id: 1, route: ''},
+        {name: 'DESTINATIONS', id: 2, route: ''},
+        {name: 'EXPERIENCES', id: 3, route: ''}
+    ]
+
 	return (
-		<nav className='px-10 py-14 flex justify-between items-center font-bold'>
-			<ul className='flex items-center gap-4'>
-				<span>Japan</span>
-				<li>Something</li>
-				<li>Something</li>
-				<li>Something</li>
-				<li>Something</li>
+		<nav className='px-16 py-10 flex justify-between font-semibold items-center'>
+			<ul className='flex items-center gap-10'>
+				<span>Log</span>
+				{nav?.map((link) => (
+                    <li>{link.name}</li>
+                ))}
+                <input type="text" placeholder="SEARCH" 
+                className="rounded-full border py-2 px-4 outline-none"/>
 			</ul>
-			<ul className='flex items-center'>
-				<li></li>
-				<button>Click Here</button>
-			</ul>
+			<button className="py-2 px-6 rounded-full text-white bg-red-500">EXPLORE</button>
 		</nav>
 	)
 }
