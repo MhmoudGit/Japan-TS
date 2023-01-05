@@ -14,7 +14,7 @@ const Cities = () => {
 					<img
 						src={one.img}
 						alt='img'
-						className='rounded-full w-16 h-16'
+						className='rounded-full w-16 h-16 border p-1 border-dashed'
 					/>
 					<div>
 						<p className='text-xs'>{one.p}</p>
